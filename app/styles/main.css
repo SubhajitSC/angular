@@ -290,3 +290,13 @@ input:focus {
 }
 
 
+.title {
+  font-size: 30px;
+}
+
+.text {
+  margin-bottom: 20px;
+  font-size: 17px;
+  border-bottom: 1px solid #D4D4D4;
+  padding-bottom: 30px;
+}
