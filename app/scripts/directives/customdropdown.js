@@ -1,7 +1,7 @@
 angular.module("custom-directive-dropdown", [])
 .directive('dropDown', function () {
   return {
-    restrict: "EAC",
+    restrict: "E",
     scope: {
       selectedModel: '=',
       listOptions: '='
@@ -75,10 +75,6 @@ angular.module("custom-directive-dropdown", [])
 
         var myElList = angular.element( document.querySelector('.lister'));
         myElList.addClass('deepDown');
-      }
-
-      $scope.getSomeVal = function(sm){
-          alert(sm + 'Value');
       }
 
       },

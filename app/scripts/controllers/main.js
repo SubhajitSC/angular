@@ -83,14 +83,4 @@ angular.module('angtestApp')
                           'carimg': 'images/Fast_Cars_Wallpaper_061.jpeg'
                         }];
 
-    $scope.testModel = $scope.testArray[0].option;
-
-
-
-
-    //$scope.datOptions = [
-    //  {"content_type" : "dd1", 'option' : '-/SFF1233F',"name" : "Mr. John Doe", "data" : "yeoman.png"},
-    //  {"content_type" : "dd2", 'option' : '-/ACF1233F',"title" : "Mr. Bob Doe", "data" : "yeoman.png"}
-    //]
-
   });
