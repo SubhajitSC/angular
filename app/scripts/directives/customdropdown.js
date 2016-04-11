@@ -3,7 +3,6 @@ angular.module("custom-directive-dropdown", [])
   return {
     restrict: "E",
     scope: {
-      selectedModel: '=',
       listOptions: '='
     },
   templateUrl : 'views/dropdownTemplate.html',
