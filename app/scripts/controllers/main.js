@@ -29,7 +29,7 @@ angular.module('angtestApp')
     $scope.testArray = [
                         {
                           "content_type" : "dd1",
-                          'option' : '-/SFF1233F',
+                          'option' : 'SFF1233F',
                           'name':  "Mr. John Doe",
                           'image': 'images/1.jpg',
                           'carimg': 'images/Fast-Cars-5.jpg'
@@ -37,7 +37,7 @@ angular.module('angtestApp')
                         },
                         {
                           "content_type" : "dd1",
-                          'option' : '-/SFF1233F',
+                          'option' : 'SFF1233F',
                           'name':  "Mr. Bob Doe",
                           'image': 'images/1.jpg',
                           'carimg': 'images/c4.jpg'
@@ -45,7 +45,7 @@ angular.module('angtestApp')
                         },
                         {
                           "content_type" : "dd1",
-                          'option' : '-/SFF1233F',
+                          'option' : 'SFF1233F',
                           'name':  "Mr. No Doe",
                           'image': 'images/1.jpg',
                           'carimg': 'images/c1.jpg'
@@ -53,7 +53,7 @@ angular.module('angtestApp')
                         },
                         {
                           "content_type" : "dd1",
-                          'option' : '-/SFF1233F',
+                          'option' : 'SFF1233F',
                           'name':  "Mr. Kyle Doe",
                           'image': 'images/1.jpg',
                           'carimg': 'images/c2.jpg'
@@ -61,7 +61,7 @@ angular.module('angtestApp')
                         },
                         {
                           "content_type" : "dd1",
-                          'option' : '-/SFF1233F',
+                          'option' : 'SFF1233F',
                           'name':  "Mr. Krish Doe",
                           'image': 'images/1.jpg',
                           'carimg': 'images/c3.jpg'
@@ -69,7 +69,7 @@ angular.module('angtestApp')
                         },
                         {
                           "content_type" : "dd1",
-                          'option' : '-/SFF1233F',
+                          'option' : 'SFF1233F',
                           'name':  "Mr. Noone Doe",
                           'image': 'images/1.jpg',
                           'carimg': 'images/Fast_Cars_Wallpaper_061.jpeg'
@@ -77,7 +77,7 @@ angular.module('angtestApp')
                         },
                         {
                           "content_type" : "dd2",
-                          'option': '-/ACF1233F',
+                          'option': 'ACF1233F',
                           'name':  "Mr. Pat Doe",
                           'image': 'images/2.jpg',
                           'carimg': 'images/Fast_Cars_Wallpaper_061.jpeg'

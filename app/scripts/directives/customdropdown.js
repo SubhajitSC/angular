@@ -61,11 +61,19 @@ angular.module("custom-directive-dropdown", [])
         //$scope.hideTip();
       }
 
+      $scope.hideList = function(hkm){
+        $scope.ssl = !$scope.ssl;
+      }
 
-      $scope.selectData = function(selm){
+
+      $scope.showData = function(selm){
         $scope.ssl = !$scope.ssl;
         $scope.sl = !$scope.sl;
         $scope.psl = !$scope.psl;
+        if(selm){
+          $scope.putData = selm;
+        }
+
       }
 
       $scope.showList = function(){
